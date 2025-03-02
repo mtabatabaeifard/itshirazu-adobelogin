@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرم ورود به کلاس های مجازی انجمن علمی IT دانشگاه شیراز</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container" style="direction: rtl;">
+        <div class="form-box login">
+            <form action="#">
+                <h2 class="title">فرم ورود به کلاس مجازی</h2>
+
+                <h5 style="color: red; display: none; margin-top:5px;" id="error">
+                    نام شما نمیتواند خالی باشد
+                  </h5>
+                <div class="input-box">
+                    <input id="username" type="text" placeholder="نام خود را وارد نمایید" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+
+                <div class="forgot-link" style="color: red;">
+                    <p style="font-size: 12px;">در صورتی که از سیستم عامل لینوکس استفاده می نمایید لطفا قبل از زدن دکمه ورود به کلاس مجازی ، یکی از extension های User-Agent Switcher را بر روی مرورگر خود نصب نمایید 
+                        لینک دانلود در <a style="cursor: pointer;font-size: 12px;
+" class="reg-btn">صفحه راهنما</a> قرار دارد
+                    </p>
+                </div>
+                <p style="font-size: 12px;">پس از ورود به کلاس حتما برروی گزینه "Display Media" کلیک نمایید تا صدا را دریافت کنید.</p>
+                <button id="submit" type="submit" class="btn">ورود به کلاس مجازی</button>
+
+            </form>
+        </div>
+
+
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h2 class="text-center">به سامانه کلاس های مجازی انجمن علمی IT  دانشگاه شیراز خوش آمدید!</h2>
+                <p class="guide text-center">جهت مشاهده راهنمای ورود به کلاس برروی دکمه زیر کلیک نمایید</p>
+                <button class="btn register-btn">راهنمای کلاس های مجازی</button>
+            </div>
+
+            <div class="toggle-panel toggle-right">
+                <h2 class="reg-title text-center">راهنمای ورود به کلاسهای مجازی انجمن</h2>
+                <button class="btn login-btn" style="margin-top: 5px;">بازگشت به صفحه ورود</button>
+            </div>
+        </div>
+        <div class="form-box register">
+            <form action="#">
+            <div class="input-box">
+                <p id="linux" style="color: red; font-size:11px;">در صورتی که از سیستم عامل لینوکس استفاده می نمایید لطفا قبل از زدن دکمه ورود به کلاس مجازی ، یکی از extension های User-Agent Switcher را بر روی مرورگر خود نصب نمایید و Agent را به ویندوز تغییر دهید و سپس بر روی دکمه ورود به کلاس کلیک کنید.
+                    <div id="agent">
+                        <p style="font-size:10px;">
+                            <a href="https://chromewebstore.google.com/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg">دانلود User-Agent Switcher برای کروم</a>
+                        </p>
+                        <p style="font-size:10px;">
+                            <a href="https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/">دانلود User-Agent Switcher برای فایرفاکس</a>
+                        </p>
+                    </div>
+                </p>
+                <p style="font-size:13px;">جهت ورود به کلاس های مجازی انجمن نیازمند نصب هیچ نرم افزار خاصی بر روی مرورگر خود نمی باشید و تحت وب میتوانید به کلاس دسترسی یابید. صرفا در صورتی که میخواید صفحه نمایش خود را به اشتراک بگذارید ، نرم افزار Adobe Connect را بر روی سیستم خود نصب نمایید. دقت داشته باشید برروی سیستم عامل لینوکس نمیتوانید صفحه نمایش خود را به اشتراک بگذارید و می توانید از یک ماشین مجازی ویندوزی استفاده نموده و با کمک vnc  به سیستم میزبان ریموت زده و از طریق آن صفحه خود را به اشتراک بگذارید</p>
+                <button class="btn" id="addownload">دانلود نرم افزار ادوبی کانکت</button>
+            </div>
+
+            <p class="social-icons">صفحات مجازی انجمن:</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-chrome' ></i></a>
+                <a href="#"><i class='bx bxl-telegram' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            </form>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
